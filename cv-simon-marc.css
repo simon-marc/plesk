@@ -1,0 +1,146 @@
+body {
+    color: white;
+    background-color: grey;
+    background-image: url("images/grad.gif");
+    background-size: cover;
+}
+
+.titre_cv {
+    font-family: Waree, sans-serif;
+    font-size: x-large;
+
+    display: flex;
+    justify-content: center;
+
+    background-image: url("./images/gradient.gif");
+    background-size: cover;
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    color: transparent;
+    height:160px;
+}
+
+.question_presentation {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    background-image: url("./images/gradient.gif");
+    background-size: cover;
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size:22px;
+    width: 900px;
+    height:40px;
+}
+
+.présentation {
+    text-align: center;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+
+    width: 900px;
+    height:50px;
+}
+
+.titre_scolarité {
+    font-style: italic;
+    font-weight: bold;
+    background-image: url("./images/gradient.gif");
+    background-size: cover;
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size:22px;
+    width: 2960px;
+    height:60px;
+}
+
+.scolarité{
+    display:flex;
+    font-size: 16px;
+    font-weight: bold;
+    flex-direction: column;
+    text-align: center;
+    width: 2900px;
+}
+
+span {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.titre_exp_professionelles{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+    background-image: url("./images/gradient.gif");
+    background-size: cover;
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.expériences_professionnelles{
+    text-align: center;
+    height: 120px;
+}
+
+.titre_langues {
+    text-align: end;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+    width: 1600px;
+    height:30px;
+    background-image: url("./images/gradient.gif");
+    background-size: cover;
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.langues {
+    text-align: end;
+    width: 1800px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.titre_atouts {
+    font-size: 22px;
+    text-align: center;
+    width: 450px;
+    height: 26px;
+    background-image: url("./images/gradient.gif");
+    background-size: cover;
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.atout {
+    text-align:center;
+    width:420px;
+    height:130px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.bouton {
+    text-align: center;
+    height: 90px;
+}
+
+.bouton_git {
+    border: 0;
+    border-radius: 47%;
+    font-size: xx-large;
+    background-image: url("images/gradient.gif");
+}
